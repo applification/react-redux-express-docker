@@ -5,7 +5,7 @@ import App from './App';
 import About from './components/about';
 import Error404 from './components/errors/notfound/';
 
-const Routes = (props) => (
+const Routes = props => (
   <Router {...props}>
     <Route path="/" component={App} />
     <Route path="/about" component={About} />
